@@ -4,8 +4,8 @@ import './PlayGround.module.css';
 
 type CanvasOptions = {
   id: string;
-  width: string;
-  height: string;
+  width?: string;
+  height?: string;
 };
 
 interface PlayGroundProps extends CanvasOptions {
